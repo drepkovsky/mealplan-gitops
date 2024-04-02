@@ -6,8 +6,9 @@ spec:
   selector:
     pod: rrk-mealplan-ufe-label # zhoduje sa s metadata.labels šablóny pod-u
   ports:
-  - name: http
-    protocol: TCP
-    port: 80 # port pomenovanej služby, môže sa líšiť
-    # od portu na ktorom počúva kontajner
-    targetPort: http # viď meno portu v deployment.yaml
+    - name: http
+      protocol: TCP
+      port:
+        80 # port pomenovanej služby, môže sa líšiť
+        # od portu na ktorom počúva kontajner
+      targetPort: http # viď meno portu v deployment.yaml
