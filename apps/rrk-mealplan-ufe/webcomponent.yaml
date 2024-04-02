@@ -15,8 +15,8 @@ spec:
       value: bobulova
       # pri navigácii na zoznam čakajúcich
     path: rrk-mealplan # cesta, ktora sa zobrazi v address bare v prehliadaci, ked bude tento mikroFE aktívny
-    title: Zoznam čakajúcich dr # názov mikro aplikácie
-    details: Spravuje zoznam pacientov čakajúcich na vyšetrenie v ambulancii
+    title: Sprava jedalnickov # názov mikro aplikácie
+    details: Spravujte jedla a jedalnicky pre pacientov v nemocnici
   preload: false # určuje, či má byť web komponent načítaný spolu s hlavnou stránkou
   proxy: true # pre komponenty v rámci klastra, neprístupné na verejnej sieti
   # musí byť táto hodnota nastavená na true
