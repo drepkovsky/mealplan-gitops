@@ -1,0 +1,14 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: rrk-mealplan-webapi
+spec:
+  template:
+    spec:
+      containers:
+      - name: openapi-ui
+        env:
+        - name: URL
+          value: /rrk-openapi
+        - name: BASE_URL
+          value: /rrk-openapi-ui

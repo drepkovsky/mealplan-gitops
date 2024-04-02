@@ -1,0 +1,21 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+commonLabels:
+  app.kubernetes.io/part-of: wac-hospital
+
+namespace: wac-hospital
+
+resources:
+- prepare.kustomization.yaml
+- cd.kustomization.yaml
+- install.kustomization.yaml
+- git-repository.yaml
+- mealplan-ufe.image-repository.yaml
+- mealplan-ufe.image-policy.yaml
+- mealplan-webapi.image-repository.yaml
+- mealplan-webapi.image-policy.yaml
+- ufe-controller.image-repository.yaml
+- ufe-controller.image-policy.yaml
+- image-update-automation.yaml
+
