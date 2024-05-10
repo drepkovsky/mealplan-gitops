@@ -11,8 +11,6 @@ spec:
     attributes:
     - name: api-base
       value: /rrk-api
-    - name: ambulance-id
-      value: bobulova
       # pri navigácii na zoznam čakajúcich
     path: rrk-mealplan # cesta, ktora sa zobrazi v address bare v prehliadaci, ked bude tento mikroFE aktívny
     title: Sprava jedalnickov # názov mikro aplikácie
