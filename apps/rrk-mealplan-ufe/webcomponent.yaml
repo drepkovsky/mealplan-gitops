@@ -10,7 +10,7 @@ spec:
   - element: rrk-mealplan-app # element, ktorý bude vložený na stránku
     attributes:
     - name: api-base
-      value: /rrk-api
+      value: /rrk-api-new
       # pri navigácii na zoznam čakajúcich
     path: rrk-mealplan # cesta, ktora sa zobrazi v address bare v prehliadaci, ked bude tento mikroFE aktívny
     title: Sprava jedalnickov # názov mikro aplikácie
