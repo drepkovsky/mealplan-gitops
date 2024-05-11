@@ -12,7 +12,7 @@ spec:
   - matches:
     - path:
         type: PathPrefix
-        value: /rrk-api
+        value: /rrk-api-new
     filters:
     - type: URLRewrite
       urlRewrite:
@@ -28,7 +28,7 @@ spec:
   - matches:
     - path:
         type: PathPrefix
-        value: /rrk-openapi-ui
+        value: /rrk-openapi-ui-new
     backendRefs:
     - group: ""
       kind: Service
@@ -38,7 +38,7 @@ spec:
   - matches:
     - path:
         type: Exact
-        value: /rrk-openapi
+        value: /rrk-openapi-new
     filters:
     - type: URLRewrite
       urlRewrite:

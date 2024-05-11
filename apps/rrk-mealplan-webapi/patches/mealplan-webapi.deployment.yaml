@@ -9,6 +9,6 @@ spec:
       - name: openapi-ui
         env:
         - name: URL
-          value: /rrk-openapi
+          value: /rrk-openapi-new
         - name: BASE_URL
-          value: /rrk-openapi-ui
+          value: /rrk-openapi-ui-new
