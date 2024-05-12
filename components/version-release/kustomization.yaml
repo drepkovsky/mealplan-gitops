@@ -3,11 +3,11 @@ kind: Component
 images:
 - name: drepkovsky/mealplan-ufe
   newName: drepkovsky/mealplan-ufe
-  newTag: 1.0.4 #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
+  newTag: 1.0.6 #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
 
 - name: drepkovsky/mealplan-webapi
   newName: drepkovsky/mealplan-webapi
-  newTag: 1.0.3
+  newTag: 1.0.5
 
 
 replacements:
